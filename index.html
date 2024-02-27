@@ -34,8 +34,7 @@
         .attr("cx", x)
         .attr("cy", y)
         .attr("r", 40)
-        .attr("fill", "purple")
-        .attr("opacity", 1);
+        .attr("fill", "purple");
         circleCount++;
 
         // Stop the interval when 100 circles are drawn
@@ -46,6 +45,8 @@
 
     // Add a circle every second
     const intervalId = setInterval(addCircle, 1000);
+    
+    // Source: https://d3-graph-gallery.com/graph/shape.html
   </script>
 </body>
 </html>
